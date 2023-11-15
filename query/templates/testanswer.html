@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>answer</title>
+    <script type="text/javascript" src="/static/js/jquery-3.6.0.min.js"></script>
+</head>
+<script>
+    function getquestion() {
+
+
+        $.ajax({
+            url: '../getAnswerText',
+            data: {},
+
+
+            success: function (data) {
+
+                document.getElementById("question").innerHTML = data;
+
+
+            }
+        });
+    }
+</script>
+<body onload="getquestion()">
+<p id="question"></p>
+<p>获取proxys并对其进行随机化</p>
+</body>
+</html>

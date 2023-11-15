@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/>
+<meta name="description" content="An IVR (Interactive Voice Response) diagram showing a call-menu tree with various prompts and responses."/> 
+<link rel="stylesheet" href="../assets/css/style.css"/> 
+<!-- Copyright 1998-2022 by Northwoods Software Corporation. -->
+<title>IVR Tree</title>
+</head>
+
+<body>
+
+  <div class="md:flex flex-col md:flex-row md:min-h-screen w-full max-w-screen-xl mx-auto">
+    <div id="navSide" class="flex flex-col w-full md:w-48 text-gray-700 bg-white flex-shrink-0"></div>
+    <!-- * * * * * * * * * * * * * -->
+    <!-- Start of GoJS sample code -->
+    
+    <script src="../static/release/go.js"></script>
+    <div id="allSampleContent" class="p-4 w-full">
+  <script src="../static/extensions/Figures.js"></script>
+    <script id="code">
+    function init() {
+
+      // Since 2.2 you can also author concise templates with method chaining instead of GraphObject.make
+      // For details, see https://gojs.net/latest/intro/buildingObjects.html
+      const $ = go.GraphObject.make;  // for conciseness in defining templates
+      myDiagram =
+        $(go.Diagram, "myDiagramDiv",
+          {
+            allowCopy: false,
+            "draggingTool.dragsTree": true,
+            "commandHandler.deletesTree": true,
+            layout:
+              $(go.TreeLayout,
+                { angle: 90, arrangement: go.TreeLayout.ArrangementFixedRoots }),
+            "undoManager.isEnabled": true
+          });
+
+      // when the document is modified, add a "*" to the title and enable the "Save" button
+      myDiagram.addDiagramListener("Modified", e => {
+        var button = document.getElementById("SaveButton");
+        if (button) button.disabled = !myDiagram.isModified;
+        var idx = document.title.indexOf("*");
+        if (myDiagram.isModified) {
+          if (idx < 0) document.title += "*";
+        } else {
+          if (idx >= 0) document.title = document.title.substr(0, idx);
+        }
+      });
+
+      var bluegrad = $(go.Brush, "Linear", { 0: "#C4ECFF", 1: "#70D4FF" });
+      var greengrad = $(go.Brush, "Linear", { 0: "#B1E2A5", 1: "#7AE060" });
+
+      // each action is represented by a shape and some text
+      var actionTemplate =
+        $(go.Panel, "Horizontal",
+          $(go.Shape,
+            { width: 12, height: 12 },
+            new go.Binding("figure"),
+            new go.Binding("fill")
+          ),
+          $(go.TextBlock,
+            { font: "10pt Verdana, sans-serif" },
+            new go.Binding("text")
+          )
+        );
+
+      // each regular Node has body consisting of a title followed by a collapsible list of actions,
+      // controlled by a PanelExpanderButton, with a TreeExpanderButton underneath the body
+      myDiagram.nodeTemplate =  // the default node template
+        $(go.Node, "Vertical",
+          new go.Binding("isTreeExpanded").makeTwoWay(),  // remember the expansion state for
+          new go.Binding("wasTreeExpanded").makeTwoWay(), //   when the model is re-loaded
+          { selectionObjectName: "BODY" },
+          // the main "BODY" consists of a RoundedRectangle surrounding nested Panels
+          $(go.Panel, "Auto",
+            { name: "BODY" },
+            $(go.Shape, "Rectangle",
+              { fill: bluegrad, stroke: null }
+            ),
+            $(go.Panel, "Vertical",
+              { margin: 3 },
+              // the title
+              $(go.TextBlock,
+                {
+                  stretch: go.GraphObject.Horizontal,
+                  font: "bold 12pt Verdana, sans-serif"
+                },
+                new go.Binding("text", "question")
+              ),
+              // the optional list of actions
+              $(go.Panel, "Vertical",
+                { stretch: go.GraphObject.Horizontal, visible: false },  // not visible unless there is more than one action
+                new go.Binding("visible", "actions", acts => (Array.isArray(acts) && acts.length > 0)),
+                // headered by a label and a PanelExpanderButton inside a Table
+                $(go.Panel, "Table",
+                  { stretch: go.GraphObject.Horizontal },
+                  $(go.TextBlock, "Choices",
+                    {
+                      alignment: go.Spot.Left,
+                      font: "10pt Verdana, sans-serif"
+                    }
+                  ),
+                  $("PanelExpanderButton", "COLLAPSIBLE",  // name of the object to make visible or invisible
+                    { column: 1, alignment: go.Spot.Right }
+                  )
+                ), // end Table panel
+                // with the list data bound in the Vertical Panel
+                $(go.Panel, "Vertical",
+                  {
+                    name: "COLLAPSIBLE",  // identify to the PanelExpanderButton
+                    padding: 2,
+                    stretch: go.GraphObject.Horizontal,  // take up whole available width
+                    background: "white",  // to distinguish from the node's body
+                    defaultAlignment: go.Spot.Left,  // thus no need to specify alignment on each element
+                    itemTemplate: actionTemplate  // the Panel created for each item in Panel.itemArray
+                  },
+                  new go.Binding("itemArray", "actions")  // bind Panel.itemArray to nodedata.actions
+                )  // end action list Vertical Panel
+              )  // end optional Vertical Panel
+            )  // end outer Vertical Panel
+          ),  // end "BODY"  Auto Panel
+          $(go.Panel,  // this is underneath the "BODY"
+            { height: 17 },  // always this height, even if the TreeExpanderButton is not visible
+            $("TreeExpanderButton")
+          )
+        );
+
+      // define a second kind of Node:
+      myDiagram.nodeTemplateMap.add("Terminal",
+        $(go.Node, "Spot",
+          $(go.Shape, "Circle",
+            { width: 55, height: 55, fill: greengrad, stroke: null }
+          ),
+          $(go.TextBlock,
+            { font: "10pt Verdana, sans-serif" },
+            new go.Binding("text")
+          )
+        )
+      );
+
+      myDiagram.linkTemplate =
+        $(go.Link, go.Link.Orthogonal,
+          { deletable: false, corner: 10 },
+          $(go.Shape,
+            { strokeWidth: 2 }
+          ),
+          $(go.TextBlock, go.Link.OrientUpright,
+            {
+              background: "white",
+              visible: false,  // unless the binding sets it to true for a non-empty string
+              segmentIndex: -2,
+              segmentOrientation: go.Link.None
+            },
+            new go.Binding("text", "answer"),
+            // hide empty string;
+            // if the "answer" property is undefined, visible is false due to above default setting
+            new go.Binding("visible", "answer", a => a ? true : false)
+          )
+        );
+
+      var nodeDataArray = [
+        {
+          key: 1, question: "login",
+          actions: [
+            { text: "user_name", figure: "ElectricalHazard", fill: "blue" },
+            { text: "password", figure: "FireHazard", fill: "red" },
+            { text: "keyword", figure: "IrritationHazard", fill: "yellow" }
+          ]
+        },
+        {
+          key: 2, question: "self.session.post",
+          actions: [
+            { text: "url", figure: "ElectricalHazard", fill: "blue" },
+            { text: "data", figure: "FireHazard", fill: "red" },
+            { text: "headers", figure: "IrritationHazard", fill: "yellow" }
+          ]
+        },
+        {
+          key: 3, question: "self.parse_keyword",
+          actions: [
+            { text: "keyword", figure: "ElectricalHazard", fill: "blue" },
+            //{ text: "Repairs", figure: "FireHazard", fill: "red" },
+            //{ text: "State Inspection", figure: "IrritationHazard", fill: "yellow" }
+          ]
+        },
+        { key: 4, question: "set" },
+        { key: 5, question: "self.session.get" },
+        { key: 6, question: "BeautifulSoup" },
+        { key: 22, question: "soup.find_all" },
+        { key: 23, question: "user_repositorys.add" },
+        {
+          key: 7, question: "self.get_results",
+          actions: [
+            { text: "user_repository", figure: "ElectricalHazard", fill: "blue" },
+            { text: "keyword", figure: "FireHazard", fill: "red" }
+          ]
+        },
+       // { key: 8, question: "Maintenance" },
+       // { key: 9, question: "Repairs" },
+       // { key: 10, question: "State Inspection" },
+       // { key: 11, question: "SUV" },
+       // { key: 12, question: "Van" },
+        //{ key: 13, category: "Terminal", text: "Susan" },
+        //{ key: 14, category: "Terminal", text: "Eric" },
+        //{ key: 15, category: "Terminal", text: "Steven" },
+        //{ key: 16, category: "Terminal", text: "Tom" },
+        //{ key: 17, category: "Terminal", text: "Emily" },
+        //{ key: 18, category: "Terminal", text: "Tony" },
+        //{ key: 19, category: "Terminal", text: "Ken" },
+        //{ key: 20, category: "Terminal", text: "Rachel" }
+      ];
+      var linkDataArray = [
+        { from: 1, to: 2, answer: 1 },
+        { from: 1, to: 3, answer: 2 },
+        { from: 3, to: 4, answer: 1 },
+        { from: 3, to: 5, answer: 2 },
+        { from: 3, to: 6, answer: 3 },
+        { from: 3, to: 7, answer: 4 },
+        { from: 3, to: 22, answer: 5 },
+        { from: 3, to: 23, answer: 6 },
+        { from: 3, to: 10, answer: 3 },
+        //{ from: 7, to: 11, answer: 1 },
+        //{ from: 7, to: 12, answer: 2 },
+        //{ from: 5, to: 13 },
+        //{ from: 6, to: 14 },
+        //{ from: 11, to: 15 },
+        //{ from: 12, to: 16 },
+        //{ from: 8, to: 17 },
+        //{ from: 9, to: 18 },
+        //{ from: 10, to: 19 },
+        //{ from: 4, to: 20 }
+      ];
+
+      // create the Model with the above data, and assign to the Diagram
+      myDiagram.model = new go.GraphLinksModel(
+        {
+          copiesArrays: true,
+          copiesArrayObjects: true,
+          nodeDataArray: nodeDataArray,
+          linkDataArray: linkDataArray
+        });
+
+    }
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+
+<div id="sample">
+  <div id="myDiagramDiv" style="border: solid 1px black; width:100%; height:500px"></div>
+
+</div>
+    </div>
+    <!-- * * * * * * * * * * * * * -->
+    <!--  End of GoJS sample code  -->
+  </div>
+</body>
+</html>

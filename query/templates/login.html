@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+     <script type="text/javascript" src="/static/js/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script >
+        function change(){
+    $.ajax({
+    url: '../ajax/foo/',
+    data : {
+        'foo': "a",
+        'bar': "b"
+    },
+        type:"POST",
+    success: function (data) {
+        window.location="/ivr"
+
+    }
+});}
+    </script>
+
+</head>
+<body>
+
+     <form method="post">
+        username: <input type="text" name="username" onclick="change()"/><br/>
+        password: <input type="text" name="password"/><br/>
+         <i onclick="change()">aaaa</i>
+        <input type="submit"/>
+    </form>
+            {{ login_status }}
+</body>
+</html>

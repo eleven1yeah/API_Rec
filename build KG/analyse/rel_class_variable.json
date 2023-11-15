@@ -1,0 +1,2813 @@
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'threadfactory': 'Async', 'on_success': 'Async', 'on_failure': 'Async', 'on_closing': 'Async'}
+{}
+{}
+{}
+{}
+{}
+{'func': 'TailRecursive', 'firstcall': 'TailRecursive', 'CONTINUE': 'TailRecursive', 'argskwd': 'TailRecursive'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{'name': 'ArgumentDescriptor', 'n': 'ArgumentDescriptor', 'reader': 'ArgumentDescriptor', 'doc': 'ArgumentDescriptor'}
+{'name': 'StackObject', 'obtype': 'StackObject', 'doc': 'StackObject'}
+{'name': 'OpcodeInfo', 'code': 'OpcodeInfo', 'arg': 'OpcodeInfo', 'stack_before': 'OpcodeInfo', 'stack_after': 'OpcodeInfo', 'proto': 'OpcodeInfo', 'doc': 'OpcodeInfo'}
+{'value': '_Example'}
+{'server': 'NetworkedNNTPTestsMixin', 'GROUP_PAT': 'NetworkedNNTPTestsMixin', 'GROUP_NAME': 'NetworkedNNTPTestsMixin'}
+{}
+{}
+{'c2s': '_NNTPServerIO', 's2c': '_NNTPServerIO', 'handler': '_NNTPServerIO'}
+{'handler': 'MockedNNTPTestsMixin', 'handler_class': 'MockedNNTPTestsMixin', 'sio': 'MockedNNTPTestsMixin', 'server': 'MockedNNTPTestsMixin'}
+{}
+{}
+{}
+{}
+{}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{'consumers': 'Logger', 'indent': 'Logger', 'in_progress': 'Logger', 'in_progress_hanging': 'Logger'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{'packages': 'MakefileMaker', 'targetPrefix': 'MakefileMaker', 'output': 'MakefileMaker'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}
+{}
+{}
+{'old_routers': 'RouterTestCase'}
+{'old_routers': 'AuthTestCase'}
+{}
+{'old_routers': 'FixtureTestCase'}
+{}
+{'_database': 'DatabaseReceiver'}
+{}
+{'old_routers': 'SignalTests'}
+{}
+{'old_routers': 'RouterAttributeErrorTestCase'}
+{}
+{'old_routers': 'RouterModelArgumentTestCase'}
+{}
+{}
+{'mode': 'RouterUsed', 'model': 'RouterUsed', 'hints': 'RouterUsed'}
+{}
+{'_old_rtrs': 'RouteForWriteTestCase'}

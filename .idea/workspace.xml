@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0346671-7d18-45e3-a45e-b6f5d3be5a89" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\maven-repository" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProjectId" id="2MrMF6jN8wRG1MaIKeJJOW2m2dt" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.webservices" />
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="build_knowledge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_Rec_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/build KG" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build KG/build_knowledge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_Rec_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/query" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/query/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myGNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_Rec_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/query/method" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/query/method/myGNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare_train_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_Rec_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/query/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/query/data/prepare_train_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="API_Rec_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/query/method" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/query/method/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="API_Rec_master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="testweb.settings" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Environment\Anaconda3\envs\buildkg\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.myGNN" />
+      <item itemvalue="Python.build_knowledge" />
+      <item itemvalue="Python.prepare_train_data" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.prepare_train_data" />
+        <item itemvalue="Python.myGNN" />
+        <item itemvalue="Python.build_knowledge" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0346671-7d18-45e3-a45e-b6f5d3be5a89" name="Default Changelist" comment="" />
+      <created>1678521140716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678521140716</updated>
+      <workItem from="1678521142281" duration="254000" />
+      <workItem from="1678524433322" duration="6903000" />
+      <workItem from="1678537430926" duration="157000" />
+      <workItem from="1678539483718" duration="653000" />
+      <workItem from="1678586006065" duration="10564000" />
+      <workItem from="1678607383929" duration="22128000" />
+      <workItem from="1678790440513" duration="2292000" />
+      <workItem from="1678932888693" duration="1551000" />
+      <workItem from="1678937517903" duration="1076000" />
+      <workItem from="1678955157258" duration="6495000" />
+      <workItem from="1679107328903" duration="4000" />
+      <workItem from="1679298312486" duration="4261000" />
+      <workItem from="1679388375618" duration="1793000" />
+      <workItem from="1679450902183" duration="9607000" />
+      <workItem from="1679483635801" duration="4254000" />
+      <workItem from="1679489148183" duration="1841000" />
+      <workItem from="1679568363805" duration="1838000" />
+      <workItem from="1679643854875" duration="1533000" />
+      <workItem from="1679708805880" duration="2277000" />
+      <workItem from="1679712510555" duration="15443000" />
+      <workItem from="1679796349309" duration="4495000" />
+      <workItem from="1679998648699" duration="1965000" />
+      <workItem from="1680605314126" duration="1156000" />
+      <workItem from="1682415848619" duration="5290000" />
+      <workItem from="1685267733594" duration="2176000" />
+      <workItem from="1685325304871" duration="5323000" />
+      <workItem from="1685447365992" duration="649000" />
+      <workItem from="1685795627989" duration="936000" />
+      <workItem from="1685796690026" duration="25000" />
+      <workItem from="1685845378953" duration="649000" />
+      <workItem from="1685866896690" duration="3099000" />
+      <workItem from="1685931385076" duration="4582000" />
+      <workItem from="1685952200390" duration="8200000" />
+      <workItem from="1686108932261" duration="2411000" />
+      <workItem from="1686553285659" duration="1401000" />
+      <workItem from="1686642478963" duration="7050000" />
+      <workItem from="1686891719468" duration="10676000" />
+      <workItem from="1686969160280" duration="2968000" />
+      <workItem from="1687078070828" duration="3394000" />
+      <workItem from="1687082674881" duration="2880000" />
+      <workItem from="1687163457989" duration="22056000" />
+      <workItem from="1687674163225" duration="3607000" />
+      <workItem from="1687830050465" duration="12524000" />
+      <workItem from="1687917723675" duration="10361000" />
+      <workItem from="1688008078178" duration="887000" />
+      <workItem from="1688090413505" duration="3344000" />
+      <workItem from="1688098859559" duration="3353000" />
+      <workItem from="1688105298153" duration="977000" />
+      <workItem from="1688106295930" duration="5655000" />
+      <workItem from="1688290857586" duration="26716000" />
+      <workItem from="1688536825831" duration="2529000" />
+      <workItem from="1688627779855" duration="654000" />
+      <workItem from="1688782211065" duration="1418000" />
+      <workItem from="1688869895116" duration="1935000" />
+      <workItem from="1688956062649" duration="14005000" />
+      <workItem from="1689041906923" duration="13562000" />
+      <workItem from="1689150729014" duration="643000" />
+      <workItem from="1689919283506" duration="1841000" />
+      <workItem from="1694477598570" duration="11000" />
+      <workItem from="1695198309495" duration="738000" />
+      <workItem from="1695628757743" duration="1262000" />
+      <workItem from="1695706935168" duration="1340000" />
+      <workItem from="1696819126600" duration="5840000" />
+      <workItem from="1696902867502" duration="2834000" />
+      <workItem from="1697037898318" duration="355000" />
+      <workItem from="1700034110441" duration="449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="84" key="FileChooserDialogImpl" timestamp="1697037992101">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="84" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1697037992101" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1700034815552">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1700034815552" />
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1700034782378">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1700034782378" />
+    <state x="28" y="0" key="new project wizard" timestamp="1697038159758">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1697038159758" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1696827523096">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1696827523096" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crown_cicai_master$transE.coverage" NAME="transE Coverage Results" MODIFIED="1688450241333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$myGNN.coverage" NAME="myGNN Coverage Results" MODIFIED="1689044052218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1688107995031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$sentence_parser.coverage" NAME="sentence_parser Coverage Results" MODIFIED="1685965462744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/build KG" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$git1.coverage" NAME="git1 Coverage Results" MODIFIED="1678612536900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/build KG" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$TransE_pytoch.coverage" NAME="TransE_pytoch Coverage Results" MODIFIED="1688894194053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$git2.coverage" NAME="git2 Coverage Results" MODIFIED="1678687584445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/build KG" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$classification.coverage" NAME="classification Coverage Results" MODIFIED="1688103921462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$test.coverage" NAME="test Coverage Results" MODIFIED="1689919320081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$sentence_parser__1_.coverage" NAME="sentence_parser (1) Coverage Results" MODIFIED="1688107130863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$crawldata.coverage" NAME="crawldata Coverage Results" MODIFIED="1678626180576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/build KG" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1688103941400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$graph.coverage" NAME="graph Coverage Results" MODIFIED="1688451262312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$prepare_train_data.coverage" NAME="prepare_train_data Coverage Results" MODIFIED="1689047928587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/data" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$searchcode1.coverage" NAME="searchcode1 Coverage Results" MODIFIED="1678603847719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/build KG" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$manage.coverage" NAME="manage Coverage Results" MODIFIED="1689050651976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$main.coverage" NAME="main Coverage Results" MODIFIED="1688098911660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/testweb" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$triple_extraction.coverage" NAME="triple_extraction Coverage Results" MODIFIED="1688386162425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/query/method" />
+    <SUITE FILE_PATH="coverage/crown_cicai_master$build_knowledge.coverage" NAME="build_knowledge Coverage Results" MODIFIED="1688977887173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/build KG" />
+  </component>
+</project>
