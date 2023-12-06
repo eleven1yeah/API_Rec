@@ -1,5 +1,5 @@
-# For software configuration, all model are implemented in
-
+# 
+For software configuration, all model are implemented in
 Python 3.7
 Pytorch-Geometric 2.0.3
 Pytorch 1.8.0
