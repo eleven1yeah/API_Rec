@@ -17,37 +17,34 @@ import torch.nn.functional as F
 import json
 import numpy as np
 
-# 定义数据处理函数collate_fn：
-# 该函数用于对输入的数据进行处理，主要包括获取数据的真实长度、进行填充和打包操作。
 def collate_fn(data):
     #data.sort(key=lambda x: len(x), reverse=True)
-    seq_len = [s.size(0) for s in data] # 获取数据真实的长度
-    data = pad_sequence(data, batch_first=True)  #对样本进行填充，保证样本数据长度相同，默认填充值为0
-    data = pack_padded_sequence(data, seq_len, batch_first=True,enforce_sorted=False) #压缩掉无效的填充值
+    seq_len = [s.size(0) for s in data] 
+    data = pad_sequence(data, batch_first=True) 
+    data = pack_padded_sequence(data, seq_len, batch_first=True,enforce_sorted=False) 
     return data
 
-#定义模型类Net：该类是整个图神经网络模型的主体，包含了两层GATConv层，用于图卷积操作。
 class Net(torch.nn.Module):
-    def __init__(self,in_num,out_num):  #in_num输入特征的维度；out_num输出类别的数量
-        super(Net,self).__init__() #初始化
-        self.gat1=GATConv(in_num,8,8,dropout=0.6) #输入特征维度in_num 输出特征维度8 头数8 丢弃率0.6
-        self.gat2=GATConv(64,out_num,1,dropout=0.6)#输入特征维度64 输出特征维度out_num 头数1
+    def __init__(self,in_num,out_num): 
+        super(Net,self).__init__()
+        self.gat1=GATConv(in_num,8,8,dropout=0.6) 
+        self.gat2=GATConv(64,out_num,1,dropout=0.6)
 
     def forward(self,data):
-        x,edge_index=data.x, data.edge_index #从data从提取节点特征x和边索引edge_index
+        x,edge_index=data.x, data.edge_index 
         #print(x)
         x=self.gat1(x,edge_index)
         #print(x)
         x=self.gat2(x,edge_index)
         
         #print(x)
-        #return F.log_softmax(x,dim=1) #激活函数，对输出进行 log-softmax 操作，将输出转换为概率分布
+        #return F.log_softmax(x,dim=1) 
         return x
 
-#定义图注意力层类GraphAttentionLayer：该类是自定义的图注意力层，用于实现图注意力机制。
+
 class GraphAttentionLayer(torch.nn.Module):
     def __init__(self, in_features: int, out_features: int, n_heads: int,
-                 is_concat: bool = True, #是否将多个头的输出拼在一起
+                 is_concat: bool = True, 
                  dropout: float = 0.6,
                  leaky_relu_negative_slope: float = 0.2):
  
@@ -56,13 +53,7 @@ class GraphAttentionLayer(torch.nn.Module):
         self.is_concat = is_concat
         self.n_heads = n_heads
 
-        ''' 计算每个注意力头的隐藏特征维度 n_hidden
-         如果 is_concat 为 True，表示在多头注意力中将多个头的特征拼接起来作为输出特征，
-         那么要求输出特征维度 out_features 必须能够被注意力头的数量 n_heads 整除。
-         然后，将输出特征维度平均分配给每个注意力头，得到每个头的隐藏特征维度 n_hidden。
-         如果 is_concat 为 False，表示在多头注意力中将多个头的特征取平均作为输出特征，
-         这种情况下每个注意力头的隐藏特征维度 n_hidden 直接等于输出特征维度 
-        '''
+      
         if is_concat:
             assert out_features % n_heads == 0
             # If we are concatenating the multiple heads
@@ -71,59 +62,45 @@ class GraphAttentionLayer(torch.nn.Module):
             # If we are averaging the multiple heads
             self.n_hidden = out_features
 
-        # 线性层，将输入特征映射到多头输出的隐藏层特征，其输出维度为 self.n_hidden * n_heads，不带偏置项
+
         self.linear = nn.Linear(in_features, self.n_hidden * n_heads, bias=False)
-        # 线性层计算注意力系数
         self.attn = nn.Linear(self.n_hidden * 2, 1, bias=False)
-        # 激活函数，采用带有负斜率的 LeakyReLU 激活函数，默认负斜率为 0.2。
         self.activation = nn.LeakyReLU(negative_slope=leaky_relu_negative_slope)
-        # Softmax 函数，计算注意力系数的归一化值，沿着维度 1 进行归一化。
         self.softmax = nn.Softmax(dim=1)
-        # Dropout层，进行随机丢弃一部分注意力系数。
         self.dropout = nn.Dropout(dropout)
 
-        self.a1=random.random() #随机数，用于在计算注意力系数时进行加权
+        self.a1=random.random()
 
-    #三个参数分别为节点特征，邻接矩阵和边矩阵
     def forward(self, h: torch.Tensor, adj_mat: torch.Tensor,edge_mat:torch.Tensor):
         print('GraphAttentionLayer')
 
         # Number of nodes
         n_nodes = h.shape[0]
-        #计算节点特征经过线性映射后的多头特征 g，并调整其形状
         g = self.linear(h).view(n_nodes, self.n_heads, self.n_hidden)
 
         g_repeat = g.repeat(n_nodes, 1, 1)
        
         g_repeat_interleave = g.repeat_interleave(n_nodes, dim=0)
-        #将 g_repeat_interleave 和 g_repeat 在最后一个维度上进行拼接，
-        # 得到形状为 (n_nodes, n_nodes, n_heads, 2 * n_hidden) 的张量 g_concat。
         g_concat = torch.cat([g_repeat_interleave, g_repeat], dim=-1)
        
         g_concat = g_concat.view(n_nodes, n_nodes, self.n_heads, 2 * self.n_hidden)
-        # 计算注意力系数 e
+
         e = self.activation(self.attn(g_concat))
-        # squeeze函数去除最后一个维度，得到形状为 (n_nodes, n_nodes, n_heads) 的张量 e
         e = e.squeeze(-1)
         print('adj_mat.shape',adj_mat.shape)
 
-        # 对 adj_mat 进行形状和值的断言检查，确保其符合预期的维度和形状
+
         assert adj_mat.shape[0] == 1 or adj_mat.shape[0] == n_nodes
         assert adj_mat.shape[1] == 1 or adj_mat.shape[1] == n_nodes
         assert adj_mat.shape[2] == 1 or adj_mat.shape[2] == self.n_heads
 
-        #使用masked_fill方法将 e 和 edge_mat 中对应位置为 0 的元素替换为负无穷 -inf
         e = e.masked_fill(adj_mat == 0, float('-inf'))
         edge_mat=edge_mat.masked_fill(adj_mat == 0, float('-inf'))
 
-        #将edge_mat与e进行线性组合，其中加权系数 self.a1 用于调整两者的权重。
-        # 对加权后的结果应用 softmax 函数进行归一化，得到注意力系数 a
         a = self.softmax(edge_mat*self.a1+e*(1-self.a1))
 
         a = self.dropout(a)
 
-        # 通过einsum函数计算加权的多头特征g的加权和，得到 attn_res，形状为 (n_nodes, n_heads, n_hidden)。
-        # 输入a 三维数组，下标为ijh；输入g 三维数组，下标为jhf；输出attn_res 三维数组，下标为ihf
         attn_res = torch.einsum('ijh,jhf->ihf', a, g)
 
         # Concatenate the heads
@@ -131,14 +108,10 @@ class GraphAttentionLayer(torch.nn.Module):
             return attn_res.reshape(n_nodes, self.n_heads * self.n_hidden)
         # Take the mean of the heads
         else:
-            # 沿着第一个维度求均值，得到形状为 (n_nodes, n_hidden) 的张量并返回，表示平均多头输出
             return attn_res.mean(dim=1)
 
-#定义自定义的GATConv类myGATConv：该类继承自MessagePassing类，实现了自定义的GATConv层，用于图卷积操作。
 class myGATConv(MessagePassing):
-    #in_channels 输入特征维数
-    #negative_slope 采用leakyRELU的激活函数，x的负半平面斜率系数
-    #add_self_loops GAT要求加入自环，即每个节点要与自身连接
+
     def __init__(self, in_channels,out_channels, heads: int = 1, concat: bool = True,
                  negative_slope: float = 0.2, dropout: float = 0.,
                  add_self_loops: bool = True, bias: bool = True, **kwargs):
@@ -147,21 +120,21 @@ class myGATConv(MessagePassing):
 
         self.in_channels = in_channels
         self.out_channels = out_channels
-        self.heads = heads   #head即设置几个attention头
-        self.concat = concat #concat用于设置多头输出时是否拼接
-        #negative_slope设置leaklyRelu的参数
+        self.heads = heads  
+        self.concat = concat 
+
         self.negative_slope = negative_slope
         self.dropout = dropout
         self.add_self_loops = add_self_loops
-		#线性变换
+
         self.lin = torch.nn.Linear(in_channels, heads * out_channels, bias=False)
-        #创建一个可学习的参数张量 att，用于存储多头注意力的权重
+
         self.att = torch.nn.parameter.Parameter(torch.Tensor(1, heads, out_channels))
 
-        self.edge_mat=torch.Tensor() #创建一个新张量赋值给edge_mat,后续存储更新传递节点之间的边信息
+        self.edge_mat=torch.Tensor() 
 
         if bias and concat:
-            #创建一个全零的参数张量，其形状为 (heads * out_channels)
+
             self.bias = torch.nn.Parameter(torch.zeros(heads * out_channels))
         elif bias and not concat:
             self.bias = torch.nn.Parameter(torch.zeros(out_channels))
@@ -169,7 +142,7 @@ class myGATConv(MessagePassing):
             self.register_parameter('bias', None)
 
         self._alpha = None
-		#用于重置参数
+
         self.reset_parameters()
 
     def reset_parameters(self):
@@ -183,7 +156,7 @@ class myGATConv(MessagePassing):
         H, C = self.heads, self.out_channels
 
         x = self.lin(x).view(-1, H, C)
-        #这里alpha的规模为[node_num,heads]
+
         alpha = (x * self.att).sum(dim=-1)
 
         if self.add_self_loops:
@@ -233,7 +206,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 
-#定义FocalLoss类：该类是实现了Focal Loss的损失函数，用于在分类任务中处理类别不平衡问题。
 class FocalLoss(nn.Module):
     r"""
         This criterion is a implemenation of Focal Loss, which is proposed in 
@@ -294,8 +266,7 @@ class FocalLoss(nn.Module):
             loss = batch_loss.sum()
         return loss
 
-#计算每个类别在标签中的逆频率
-#为解决数据集中类别不平衡问题，逆频率越大，权重越大，模型在训练过程中会更加关注该类别，以弥补样本数量的不足
+
 def inverse_freq(label,class_num):
     res=[]
     num = label.shape[0]
@@ -309,7 +280,7 @@ def inverse_freq(label,class_num):
 #TTAGN
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv
-#定义TTAGN类：该类是整个TTAGN模型的主体，包括GATConv层、GCNConv层、LSTM层和全连接层等组件，用于图分类任务。
+
 class TTAGN(torch.nn.Module):
     def __init__(self,in_num,out_gat_num,out_gcn_num):
         super(TTAGN,self).__init__()
@@ -453,21 +424,21 @@ class TTAGN(torch.nn.Module):
 
 
 def train_GNN(edges_train=None, node_series=None):
-    cuda = True if torch.cuda.is_available() else False#检查当前设备是否支持CUDA，如果支持，则使用CUDA进行加速。
+    cuda = True if torch.cuda.is_available() else False
     #cuda=False
     result=[]
 
-    # 读取 JSON 文件
+
     with open('../data/graph_data.json', 'r', encoding='utf-8-sig') as file:
         data = json.load(file)
 
-    # 构建特征词汇表
-    feature_vocab = {'<PAD>': 0}  # 添加一个填充标记
-    relation_vocab = {'<PAD>': 0}  # 添加一个填充标记
+
+    feature_vocab = {'<PAD>': 0}  
+    relation_vocab = {'<PAD>': 0} 
     feature_index = 1
     relation_index = 1
 
-    # 存储 train_data 的字典
+
     train_data = {
         'x': [],
         'y': [],
@@ -475,17 +446,17 @@ def train_GNN(edges_train=None, node_series=None):
         'node_series': []
     }
 
-    # 遍历每个子图
+
     for graph in data:
         # 提取 "n", "r", "m" 组合
         n_node = graph['n']
         r_node = graph['r']
         m_node = graph['m']
 
-    # 提取实体属性特征
-    n_features = n_node['properties']['name']  # 假设实体属性特征为名称
 
-    # 数值化实体属性特征
+    n_features = n_node['properties']['name']  
+
+
     n_features_encoded = []
     for feature in n_features:
         if feature not in feature_vocab:
@@ -493,41 +464,41 @@ def train_GNN(edges_train=None, node_series=None):
             feature_index += 1
         n_features_encoded.append(feature_vocab[feature])
 
-    # 添加到 train_data.x
+
     train_data['x'].append(n_features_encoded)
 
-    # 提取实体关联关系
+
     r_label = r_node['type']
     m_name = m_node['properties']['name']
 
-    # 数值化实体关联关系
+
     r_label_encoded = []
     if r_label not in relation_vocab:
         relation_vocab[r_label] = relation_index
         relation_index += 1
     r_label_encoded.append(relation_vocab[r_label])
 
-    # 添加到 train_data.y
+
     train_data['y'].append([n_features_encoded, r_label_encoded, m_name])
 
-    # 提取实体间关联关系特征
-    edge_features = np.array([])  # 假设实体间关联关系特征为空
 
-    # 添加到 train_edges
+    edge_features = np.array([]) 
+
+
     train_data['edges'].append(edge_features)
 
-    # 提取实体节点的篇章说明
-    node_series = "篇章说明"  # 假设实体节点的篇章说明为固定字符串
 
-    # 添加到 node_series
+    node_series = "篇章说明" 
+
+
     train_data['node_series'].append(node_series)
 
-    # 转换为 NumPy 数组
+
     train_data['x'] = np.array(train_data['x'])
     train_data['y'] = np.array(train_data['y'])
     train_data['edges'] = np.array(train_data['edges'])
 
-    # 打印 train_data
+
     #print(train_data)
 
 
@@ -562,7 +533,7 @@ def train_GNN(edges_train=None, node_series=None):
 
     features=torch.Tensor()
     trans_feature=torch.Tensor()
-    #生成训练节点和测试节点
+
     train_node=random.sample(range(0,train_data.x.shape[0]),int(train_data.x.shape[0]*0.8))
     test_node=list(set(range(0,train_data.x.shape[0]))-set(train_node))
     loss_list=[]
