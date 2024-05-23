@@ -1,15 +1,4 @@
-#定义了一个名为classifier的PyTorch模型类和一个名为train_classifier的训练函数
 
-'''输入：
-    features：形状为(n, dim)的特征张量，其中n是样本数量，dim是每个样本的特征维度。
-    labels：形状为(n,)的标签张量，包含每个样本的标签。
-    输出：classifier_model：训练好的分类器模型。
-
-这个文件的主要功能是训练一个多层感知机分类器(classifier)，并输出训练好的模型。
-训练过程使用Adam优化器和交叉熵损失函数进行监督学习。
-训练函数会在每个训练周期(epoch)计算训练准确率、测试准确率以及其他指标如精确率、召回率、F1分数等，
-并输出评估结果。训练过程会持续进行多个周期，直到达到指定的训练周期数。
-'''
 import torch
 import random
 from sklearn.metrics import precision_score, recall_score, f1_score
@@ -18,20 +7,18 @@ from sklearn.metrics import classification_report
 class classifier(torch.nn.Module):
     def __init__(self,dim,out_dim=2):
         super(classifier,self).__init__()
-        #定义三个线性层
         self.classifier1=torch.nn.Linear(dim,32)
         self.classifier2=torch.nn.Linear(32,16)
         self.classifier3=torch.nn.Linear(16,out_dim)
         
-    #定义了模型的前向传播过程。输入x经过classifier1、2、3层，然后返回模型的输出。
+
     def forward(self,x):
         x=self.classifier1(x)
         x=self.classifier2(x)
         return self.classifier3(x)
 
-#train_classifier函数接收特征数据features和标签数据labels作为输入，并进行分类器的训练。
+
 def train_classifier(features,labels):
-    #函数内部首先判断是否可以使用CUDA加速，然后初始化分类器模型classifier_model。
     cuda = True if torch.cuda.is_available() else False
     Tensor = torch.cuda.FloatTensor if cuda else torch.FloatTensor
 
@@ -66,7 +53,6 @@ def train_classifier(features,labels):
     features=torch.concat(feature_list,dim=0)
     print(features.shape)'''
 
-    #定义了一个Adam优化器(torch.optim.Adam)和训练集和测试集的索引train_node和test_node。
     optimizer = torch.optim.Adam(classifier_model.parameters(), lr=0.01, weight_decay=5e-4)
     train_node=list(set(random.sample(range(0,features.shape[0]),int(features.shape[0]*0.8))))
     test_node=list((set(range(0,features.shape[0]))-set(train_node)))
@@ -78,16 +64,12 @@ def train_classifier(features,labels):
     best_p=0
     best_micro=0
     best_macro=0
-    #进入训练循环，进行多个epoch的训练。
-    # 在每个epoch中，首先将模型参数的梯度清零(optimizer.zero_grad())，然后通过前向传播计算输出out。
+   
     for epoch in range(10000):
         optimizer.zero_grad()
 
         out=classifier_model(features)
-        #根据训练集的一部分计算损失函数loss，使用交叉熵损失函数(torch.nn.functional.cross_entropy)。
-        # 其中，训练集部分的损失权重设为1，而其他部分（例如前43个样本和前4838个样本）的损失权重设为不同的值。
         loss=F.cross_entropy(out[train_node],labels[train_node])+F.cross_entropy(out[0:4838],labels[0:4838])*1+F.cross_entropy(out[0:43],labels[0:43])*5
-        #调用反向传播和优化器的step函数更新模型的参数
         loss.backward(retain_graph=True)
         optimizer.step()
         
@@ -95,8 +77,6 @@ def train_classifier(features,labels):
         correct = int(pred1[train_node].eq(labels[train_node]).sum().item())
         train_acc = correct/len(train_node)
 
-        #在每个epoch的特定步骤，将模型设置为评估模式(classifier_model.eval())，进行测试集上的预测，
-        #并计算精确度、召回率、F1分数和分类报告。同时，打印训练集和测试集上的性能指标。
         if best<train_acc:
             best=train_acc
         if epoch%100==0:
@@ -125,7 +105,7 @@ def train_classifier(features,labels):
             #print(classification_report(labels[test_node].cpu(), pred.cpu(), target_names=['gambling','normal','phish-hack','ponzi']))
             print(classification_report(labels[test_node].cpu(), pred.cpu()))
 
-            #追踪并更新最佳的性能指标值
+
             if best_r<r:
                 best_r=r
                 best_r=r
